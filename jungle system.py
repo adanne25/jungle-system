@@ -190,23 +190,23 @@ class bear(mammal):
     def sleep(self):
         print('they hibernate a lot')  
 
-# bear = bear()
-# bear.typee = 'variety of '
-# bear.tp()
-# bear.habitat = 'land'
-# bear.live()
-# bear.feeding = 'carnivores'
-# bear.eat()
-# bear.gender = 'male'
-# bear.gndr()
-# bear.age = '20'
-# bear.agee()
-# bear.have = '  different animals'
-# bear.nature()
-# bear.speed = ' fast  '
-# bear.spd()      
-# bear.kill = 'predators'
-# bear.kll()            
+bear = bear()
+bear.typee = 'variety of '
+bear.tp()
+bear.habitat = 'land'
+bear.live()
+bear.feeding = 'carnivores'
+bear.eat()
+bear.gender = 'male'
+bear.gndr()
+bear.age = '20'
+bear.agee()
+bear.have = '  different animals'
+bear.nature()
+bear.speed = ' fast  '
+bear.spd()      
+bear.kill = 'predators'
+bear.kll()            
         
 class parrot(birds):
     def __init__(self):
@@ -215,24 +215,24 @@ class parrot(birds):
     def speak_words(self):
         print('parrot speaks words')
 
-# parrot = parrot()
-# parrot.typee = 'parrot '
-# parrot.tp()
-# parrot.habitat = 'air'
-# parrot.live()
-# parrot.feeding = ' herbivores'
-# parrot.eat()
-# parrot.gender = 'male '
-# parrot.gndr()
-# parrot.age = 'depends of different mammals'
-# parrot.agee()
-# parrot.color('')
-# parrot.colour()
-# parrot.nests('  build')
-# parrot.build_nests()
-# parrot.kill = 'prey'
-# parrot.kll()   
-# parrot.speak_words()
+parrot = parrot()
+parrot.typee = 'parrot '
+parrot.tp()
+parrot.habitat = 'air'
+parrot.live()
+parrot.feeding = ' herbivores'
+parrot.eat()
+parrot.gender = 'male '
+parrot.gndr()
+parrot.age = 'depends of different mammals'
+parrot.agee()
+parrot.color('')
+parrot.colour()
+parrot.nests('  build')
+parrot.build_nests()
+parrot.kill = 'prey'
+parrot.kll()   
+parrot.speak_words()
 
 class eagle(birds):
     def __init__(self):
@@ -241,32 +241,32 @@ class eagle(birds):
     def soar_high(self):
         print('eagles soar high in the sky')    
 
-# eagle = eagle()
-# eagle.typee = 'eagle '
-# eagle.tp()
-# eagle.habitat = 'air'
-# eagle.live()
-# eagle.feeding = ' carnivores'
-# eagle.eat()
-# eagle.gender = 'male '
-# eagle.gndr()
-# eagle.age = 'depends of different mammals'
-# eagle.agee()
-# eagle.color('white')
-# eagle.colour()
-# eagle.nests('  build')
-# eagle.build_nests()
-# eagle.kill = 'predators'
-# eagle.kll()   
-# eagle.soar_high()
+eagle = eagle()
+eagle.typee = 'eagle '
+eagle.tp()
+eagle.habitat = 'air'
+eagle.live()
+eagle.feeding = ' carnivores'
+eagle.eat()
+eagle.gender = 'male '
+eagle.gndr()
+eagle.age = 'depends of different mammals'
+eagle.agee()
+eagle.color('white')
+eagle.colour()
+eagle.nests('  build')
+eagle.build_nests()
+eagle.kill = 'predators'
+eagle.kll()   
+eagle.soar_high()
 
-# print(type(lion) is type(tiger))
+print(type(lion) is type(tiger))
 
-class MetaLiger(Metalion, Metatiger):
-    pass
+# class MetaLiger(Metalion, Metatiger):
+#     pass
 
-class liger(lion , tiger, metaclass=MetaLiger):
-    pass
+# class liger(lion , tiger, metaclass=MetaLiger):
+#     pass
     # def __init__(self):
     #     print('liger is a baby class animal of lion and tiger')
 
@@ -276,7 +276,7 @@ class liger(lion , tiger, metaclass=MetaLiger):
     # def sterile(self):
     #     print('they are sterile in nature')     
 
-liger = liger()
+# liger = liger()
 # liger.info()
 # liger.sterile()
 # liger.typee = 'variety of '
